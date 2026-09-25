@@ -1,6 +1,6 @@
 // quick smoke: boot JEVE sheet, probe steps, mock seam, tiny 2-seat set piece
 import { QuiltEngine } from '../engine/index.js';
-import { buildJeveSheet, buildSeamState, buildSeamQuestions, seamAnswerToTeachInput } from './mind.mjs';
+import { buildJeveSheet, buildSeamState, buildSeamQuestions, seamAnswerToTeachInput, HYPS } from './mind.mjs';
 import { JevVault } from '../../quilt-cortex/cortex/typesafe.mjs';
 import { mulberry32, verifyChain } from '../shared/kit.mjs';
 import { Arena5 } from './arena5.mjs';

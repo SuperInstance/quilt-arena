@@ -21,8 +21,11 @@ import { fileURLToPath } from 'node:url';
 const here = dirname(fileURLToPath(import.meta.url));
 mkdirSync(join(here, '../../.cache'), { recursive: true });
 
-const KEY = 'REDACTED_read_env_TYPESAFE_API_KEY';
-const MOTH_KEY = 'REDACTED_read_env_MOTH_API_KEY';
+// Keys are read from the environment — never hardcode them.
+//   export TYPESAFE_API_KEY=...   (typesafe.ai)
+//   export MOTH_API_KEY=...       (mothquantum.com)
+const KEY = process.env.TYPESAFE_API_KEY || '';
+const MOTH_KEY = process.env.MOTH_API_KEY || '';
 
 const CHECKS = [];
 const check = (name, ok, detail = '') => { CHECKS.push({ name, ok }); console.log(`${ok ? 'PASS' : 'FAIL'}  ${name}${detail ? ' — ' + detail : ''}`); };

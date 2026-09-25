@@ -19,9 +19,9 @@ import {
   heartsDeal, heartsLegal, heartsFeats, heartsVerify,
 } from '../arena/games.mjs';
 import { buildAgentSheet, FAMILIES, STYLE_KEYS, MW_FEATS, HW_FEATS } from '../arena/minds.mjs';
-import { buildJeveSheet, buildSeamState, buildSeamQuestions, seamAnswerToTeachInput } from './mind.mjs';
+import { buildJeveSheet, JEVE, HKEYS, buildSeamState, buildSeamQuestions, seamAnswerToTeachInput } from './mind.mjs';
 
-export const FAMILIES5 = [...FAMILIES, 'JEVE'];
+export const FAMILIES5 = [...FAMILIES, JEVE];
 const SEATS = ['p0', 'p1', 'p2', 'p3', 'p4'];
 const PAIRS = [];
 for (let i = 0; i < 5; i++) for (let j = i + 1; j < 5; j++) PAIRS.push([i, j]);
