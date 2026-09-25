@@ -1,0 +1,561 @@
+{
+ "meta": {
+  "at": "2026-09-25T22:46:12.725Z",
+  "live": true,
+  "cap": 6,
+  "liveUsed": 0,
+  "tokens": {
+   "input": 0,
+   "output": 0
+  },
+  "lawCount": 14
+ },
+ "runs": {
+  "life.v0": {
+   "probes": 16,
+   "sysoneRounds": 8,
+   "liveRounds": 0,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "heldOut": 1,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "picks": [
+    "S7",
+    "B7",
+    "B6",
+    "S6",
+    "B5",
+    "B8",
+    "S8",
+    "S1"
+   ],
+   "sysoneMeta": [
+    {
+     "source": "mock",
+     "mock": true,
+     "worth": 0.3144
+    },
+    {
+     "source": "mock",
+     "mock": true,
+     "worth": 0.4593
+    },
+    {
+     "source": "mock",
+     "mock": true,
+     "worth": 0.811
+    },
+    {
+     "source": "mock",
+     "mock": true,
+     "worth": 0.333
+    },
+    {
+     "source": "mock",
+     "mock": true,
+     "worth": 0.5732
+    },
+    {
+     "source": "mock",
+     "mock": true,
+     "worth": 0.5309
+    },
+    {
+     "source": "mock",
+     "mock": true,
+     "worth": 0.1413
+    },
+    {
+     "source": "mock",
+     "mock": true,
+     "worth": 0.4654
+    }
+   ]
+  },
+  "reversi.v0": {
+   "probes": 16,
+   "sysoneRounds": 16,
+   "liveRounds": 0,
+   "mapKind": "map",
+   "mapKey": "23456",
+   "survivors": 1,
+   "heldOut": 0.855,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "picks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "sysoneMeta": [
+    {
+     "source": "mock",
+     "mock": true
+    },
+    {
+     "source": "mock",
+     "mock": true
+    },
+    {
+     "source": "mock",
+     "mock": true
+    },
+    {
+     "source": "mock",
+     "mock": true
+    },
+    {
+     "source": "mock",
+     "mock": true
+    },
+    {
+     "source": "mock",
+     "mock": true
+    },
+    {
+     "source": "mock",
+     "mock": true
+    },
+    {
+     "source": "mock",
+     "mock": true
+    },
+    {
+     "source": "mock",
+     "mock": true
+    },
+    {
+     "source": "mock",
+     "mock": true
+    },
+    {
+     "source": "mock",
+     "mock": true
+    },
+    {
+     "source": "mock",
+     "mock": true
+    },
+    {
+     "source": "mock",
+     "mock": true
+    },
+    {
+     "source": "mock",
+     "mock": true
+    },
+    {
+     "source": "mock",
+     "mock": true
+    },
+    {
+     "source": "mock",
+     "mock": true
+    }
+   ]
+  }
+ },
+ "receipts": [
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:life.v0:r1",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:life.v0:r1",
+   "h": "625cf4087e4f",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:life.v0:r2",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:life.v0:r2",
+   "h": "468a52dcd4a1",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:life.v0:r3",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:life.v0:r3",
+   "h": "0c143102f1ad",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:life.v0:r4",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:life.v0:r4",
+   "h": "ae4540e34546",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:life.v0:r5",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:life.v0:r5",
+   "h": "4123a38f7aa5",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:life.v0:r6",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:life.v0:r6",
+   "h": "309e6089c4d7",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:life.v0:r7",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:life.v0:r7",
+   "h": "1260fc3dd29f",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:life.v0:r8",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:life.v0:r8",
+   "h": "d42046c55186",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "live-run",
+   "law": "life.v0",
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "heldOut": 1,
+   "sysoneRounds": 8,
+   "liveRounds": 0,
+   "prev_hash": "0000000000000000",
+   "row_hash": "9c69512938bf4734"
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:reversi.v0:r0",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:reversi.v0:r0",
+   "h": "cf73c449ba8b",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:reversi.v0:r1",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:reversi.v0:r1",
+   "h": "24c861d53260",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:reversi.v0:r2",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:reversi.v0:r2",
+   "h": "297a5ab6e104",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:reversi.v0:r3",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:reversi.v0:r3",
+   "h": "426016505bab",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:reversi.v0:r4",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:reversi.v0:r4",
+   "h": "4756b696f1a9",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:reversi.v0:r5",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:reversi.v0:r5",
+   "h": "e0b9480f2c62",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:reversi.v0:r6",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:reversi.v0:r6",
+   "h": "b7c64e284a39",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:reversi.v0:r7",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:reversi.v0:r7",
+   "h": "2404c983fd84",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:reversi.v0:r8",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:reversi.v0:r8",
+   "h": "45aabeadbd2b",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:reversi.v0:r9",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:reversi.v0:r9",
+   "h": "a62f29acf822",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:reversi.v0:r10",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:reversi.v0:r10",
+   "h": "f30bd313e0a9",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:reversi.v0:r11",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:reversi.v0:r11",
+   "h": "860264551f97",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:reversi.v0:r12",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:reversi.v0:r12",
+   "h": "d12f87a7e79e",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:reversi.v0:r13",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:reversi.v0:r13",
+   "h": "9531013b32ca",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:reversi.v0:r14",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:reversi.v0:r14",
+   "h": "c52a6c7ea6a0",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "jev_error",
+   "tag": "inverse-oracle:reversi.v0:r15",
+   "status": 401,
+   "why": "{\"detail\":{\"error_type\":\"authentication_error\",\"message\":\"Cannot authenticate with the server. Please check your API key and try again.\"}}"
+  },
+  {
+   "kind": "jev",
+   "tag": "inverse-oracle:reversi.v0:r15",
+   "h": "dd608b9dac1d",
+   "source": "mock",
+   "mock": true,
+   "q": 2,
+   "tokens": null
+  },
+  {
+   "kind": "live-run",
+   "law": "reversi.v0",
+   "mapKind": "map",
+   "mapKey": "23456",
+   "survivors": 1,
+   "heldOut": 0.855,
+   "sysoneRounds": 16,
+   "liveRounds": 0,
+   "prev_hash": "9c69512938bf4734",
+   "row_hash": "adba9f0c69d23074"
+  },
+  {
+   "kind": "live-reflex",
+   "law": "life.v0",
+   "surprise": 0,
+   "prev_hash": "adba9f0c69d23074",
+   "row_hash": "04f8befcdeef4c8c"
+  }
+ ]
+}

@@ -447,12 +447,14 @@ export function buildAgentCells(aid, family) {
   push(prog('inf.update', updateCode(family), 'family-specific fit after observing a mover pick', []));
   push(prog('learn.revise', reviseCode(), 'craftmind script-writer: mutate styles, stamp version+receipt', []));
   push(prog('lamp.shift', `${BASE}
-  if ((input.current ?? 0) > 0.5) {
+  // PLAY-TEST FIX: fired listener actions receive input = {changed, value};
+  // input.current is always undefined (verified against engine listener.js).
+  if ((input.value ?? input.current ?? 0) > 0.5) {
     const log = (await gv('lamp.log')) || [];
-    log.push({ t: Date.now(), alarm: input.current });
+    log.push({ t: Date.now(), alarm: input.value ?? input.current });
     await runtime.set('lamp.log', log.slice(-20));
   }
-  return { flashed: (input.current ?? 0) > 0.5 };`, 'listener action: flash on opponent spectral shift', []));
+  return { flashed: (input.value ?? input.current ?? 0) > 0.5 };`, 'listener action: flash on opponent spectral shift', []));
   push(listenerCell('watch.shift', ['pulse.shift'], 'lamp.shift', null, 'flash when an opponent strategy shift is detected'));
   return cells;
 }

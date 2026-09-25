@@ -1,0 +1,6503 @@
+{
+ "meta": {
+  "at": "2026-09-25T22:44:32.156Z",
+  "seed": 20260926,
+  "budgets": [
+   2,
+   4,
+   8,
+   16,
+   24,
+   32
+  ],
+  "laws": 14,
+  "chainOk": "db399907c548c7d2",
+  "chainLen": 234
+ },
+ "identification": [
+  {
+   "law": "reversi.canon",
+   "family": "reversi",
+   "tier": "canonical",
+   "probesUsed": 1,
+   "shape": "list",
+   "cls": "reversi",
+   "trueFamily": "reversi",
+   "hit": true
+  },
+  {
+   "law": "reversi.v0",
+   "family": "reversi-variant",
+   "tier": "variant",
+   "probesUsed": 1,
+   "shape": "list",
+   "cls": "reversi",
+   "trueFamily": "reversi-variant",
+   "hit": true
+  },
+  {
+   "law": "reversi.v1",
+   "family": "reversi-variant",
+   "tier": "variant",
+   "probesUsed": 1,
+   "shape": "list",
+   "cls": "reversi",
+   "trueFamily": "reversi-variant",
+   "hit": true
+  },
+  {
+   "law": "reversi.v2",
+   "family": "reversi-variant",
+   "tier": "variant",
+   "probesUsed": 1,
+   "shape": "list",
+   "cls": "reversi",
+   "trueFamily": "reversi-variant",
+   "hit": true
+  },
+  {
+   "law": "reversi.v3",
+   "family": "reversi-variant",
+   "tier": "variant",
+   "probesUsed": 1,
+   "shape": "list",
+   "cls": "reversi",
+   "trueFamily": "reversi-variant",
+   "hit": true
+  },
+  {
+   "law": "reversi.v4",
+   "family": "reversi-variant",
+   "tier": "variant",
+   "probesUsed": 1,
+   "shape": "list",
+   "cls": "reversi",
+   "trueFamily": "reversi-variant",
+   "hit": true
+  },
+  {
+   "law": "life.canon",
+   "family": "life",
+   "tier": "canonical",
+   "probesUsed": 1,
+   "shape": "grid",
+   "cls": "life",
+   "trueFamily": "life",
+   "hit": true
+  },
+  {
+   "law": "life.v0",
+   "family": "life-variant",
+   "tier": "variant",
+   "probesUsed": 1,
+   "shape": "grid",
+   "cls": "life",
+   "trueFamily": "life-variant",
+   "hit": true
+  },
+  {
+   "law": "life.v1",
+   "family": "life-variant",
+   "tier": "variant",
+   "probesUsed": 1,
+   "shape": "grid",
+   "cls": "life",
+   "trueFamily": "life-variant",
+   "hit": true
+  },
+  {
+   "law": "life.v2",
+   "family": "life-variant",
+   "tier": "variant",
+   "probesUsed": 1,
+   "shape": "grid",
+   "cls": "life",
+   "trueFamily": "life-variant",
+   "hit": true
+  },
+  {
+   "law": "life.v3",
+   "family": "life-variant",
+   "tier": "variant",
+   "probesUsed": 1,
+   "shape": "grid",
+   "cls": "life",
+   "trueFamily": "life-variant",
+   "hit": true
+  },
+  {
+   "law": "life.v4",
+   "family": "life-variant",
+   "tier": "variant",
+   "probesUsed": 1,
+   "shape": "grid",
+   "cls": "life",
+   "trueFamily": "life-variant",
+   "hit": true
+  },
+  {
+   "law": "hand.canon",
+   "family": "hand",
+   "tier": "known",
+   "probesUsed": 1,
+   "shape": "poker",
+   "cls": "hand",
+   "trueFamily": "hand",
+   "hit": true
+  },
+  {
+   "law": "witness.canon",
+   "family": "witness",
+   "tier": "opaque",
+   "probesUsed": 1,
+   "shape": "hex16",
+   "cls": "witness",
+   "trueFamily": "witness",
+   "hit": true
+  }
+ ],
+ "discovery": [
+  {
+   "law": "reversi.canon",
+   "tier": "canonical",
+   "family": "reversi",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.28,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "reversi.canon",
+   "tier": "canonical",
+   "family": "reversi",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "map",
+   "mapKey": "23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.205,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "reversi.canon",
+   "tier": "canonical",
+   "family": "reversi",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "0123",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.55,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "reversi.canon",
+   "tier": "canonical",
+   "family": "reversi",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "012345",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.725,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "reversi.canon",
+   "tier": "canonical",
+   "family": "reversi",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "12345",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.615,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "reversi.canon",
+   "tier": "canonical",
+   "family": "reversi",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "012345",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.78,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "reversi.canon",
+   "tier": "canonical",
+   "family": "reversi",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.28,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "reversi.canon",
+   "tier": "canonical",
+   "family": "reversi",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "map",
+   "mapKey": "0123",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.535,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "reversi.canon",
+   "tier": "canonical",
+   "family": "reversi",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "01234567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "surprises": 0
+  },
+  {
+   "law": "reversi.canon",
+   "tier": "canonical",
+   "family": "reversi",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "01234567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "surprises": 0
+  },
+  {
+   "law": "reversi.canon",
+   "tier": "canonical",
+   "family": "reversi",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "01234567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "surprises": 0
+  },
+  {
+   "law": "reversi.canon",
+   "tier": "canonical",
+   "family": "reversi",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "01234567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "surprises": 0
+  },
+  {
+   "law": "reversi.canon",
+   "tier": "canonical",
+   "family": "reversi",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.25,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "reversi.canon",
+   "tier": "canonical",
+   "family": "reversi",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "map",
+   "mapKey": "014",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.33,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "reversi.canon",
+   "tier": "canonical",
+   "family": "reversi",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "0123457",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.885,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "reversi.canon",
+   "tier": "canonical",
+   "family": "reversi",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "01234567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "surprises": 0
+  },
+  {
+   "law": "reversi.canon",
+   "tier": "canonical",
+   "family": "reversi",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "01234567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "surprises": 0
+  },
+  {
+   "law": "reversi.canon",
+   "tier": "canonical",
+   "family": "reversi",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "01234567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v0",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "map",
+   "mapKey": "2",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.455,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v0",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "map",
+   "mapKey": "23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.535,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v0",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.55,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v0",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "2345",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.725,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v0",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "2345",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.835,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v0",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "2345",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.78,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v0",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "map",
+   "mapKey": "2",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.455,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v0",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "map",
+   "mapKey": "23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.535,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v0",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "234567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v0",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "234567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v0",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "234567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v0",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "234567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v0",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "map",
+   "mapKey": "2",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.395,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v0",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "map",
+   "mapKey": "4",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.33,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v0",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "23457",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.885,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v0",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "234567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v0",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "234567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v0",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "234567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:00111111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v1",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.43,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110110",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v1",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "map",
+   "mapKey": "23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.36,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110110",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v1",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "0123",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.775,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110110",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v1",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "01235",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.83,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110110",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v1",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "1235",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.685,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110110",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v1",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "01235",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.91,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110110",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v1",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.43,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110110",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v1",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "map",
+   "mapKey": "0123",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.745,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110110",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v1",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "012356",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11110110",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v1",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "012356",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11110110",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v1",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "012356",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11110110",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v1",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "012356",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11110110",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v1",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.405,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110110",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v1",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.38,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110110",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v1",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "01235",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.885,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110110",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v1",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "012356",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11110110",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v1",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "012356",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11110110",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v1",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "012356",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11110110",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v2",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.55,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11010111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v2",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "map",
+   "mapKey": "3",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.295,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11010111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v2",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "013",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.675,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11010111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v2",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "0135",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.725,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11010111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v2",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "135",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.615,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11010111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v2",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "0135",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.78,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11010111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v2",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.55,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11010111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v2",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "map",
+   "mapKey": "013",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.645,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11010111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v2",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "013567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11010111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v2",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "013567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11010111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v2",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "013567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11010111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v2",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "013567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11010111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v2",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.46,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11010111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v2",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.55,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11010111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v2",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "01357",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.885,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11010111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v2",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "013567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11010111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v2",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "013567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11010111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v2",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "013567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11010111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v3",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.515,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11100111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v3",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "map",
+   "mapKey": "2",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.295,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11100111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v3",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "012",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.675,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11100111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v3",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "0125",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.725,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11100111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v3",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "125",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.615,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11100111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v3",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "0125",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.78,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11100111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v3",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.515,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11100111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v3",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "map",
+   "mapKey": "012",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.645,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11100111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v3",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "012567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11100111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v3",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "012567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11100111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v3",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "012567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11100111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v3",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "012567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11100111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v3",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.53,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11100111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v3",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.485,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11100111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v3",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "01257",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.885,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11100111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v3",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "012567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11100111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v3",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "012567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11100111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v3",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "012567",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11100111",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v4",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.43,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110011",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v4",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "map",
+   "mapKey": "23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.395,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110011",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v4",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "0123",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.77,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110011",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v4",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "0123",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.725,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110011",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v4",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "123",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.615,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110011",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v4",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "0123",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.78,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110011",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v4",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.43,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110011",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v4",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "map",
+   "mapKey": "0123",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.77,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110011",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v4",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "012367",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11110011",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v4",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "012367",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11110011",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v4",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "012367",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11110011",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v4",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "012367",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11110011",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v4",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.41,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110011",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v4",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "map",
+   "mapKey": "01",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.4,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110011",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v4",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "01237",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 0.885,
+   "exactHit": false,
+   "truth": {
+    "dirs": "6ray:11110011",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v4",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "012367",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11110011",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v4",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "012367",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11110011",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "reversi.v4",
+   "tier": "variant",
+   "family": "reversi-variant",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "012367",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "dirs": "6ray:11110011",
+    "k": 6
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.canon",
+   "tier": "canonical",
+   "family": "life",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "life.canon",
+   "tier": "canonical",
+   "family": "life",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "life.canon",
+   "tier": "canonical",
+   "family": "life",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 64,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "life.canon",
+   "tier": "canonical",
+   "family": "life",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 4,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "life.canon",
+   "tier": "canonical",
+   "family": "life",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 8,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "life.canon",
+   "tier": "canonical",
+   "family": "life",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 2,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "life.canon",
+   "tier": "canonical",
+   "family": "life",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "mapKey": "B/S1",
+   "survivors": 32767,
+   "exactPinned": false,
+   "heldOut": 0,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "life.canon",
+   "tier": "canonical",
+   "family": "life",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S2",
+   "survivors": 2048,
+   "exactPinned": false,
+   "heldOut": 0.145,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "life.canon",
+   "tier": "canonical",
+   "family": "life",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "life.canon",
+   "tier": "canonical",
+   "family": "life",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 4,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "life.canon",
+   "tier": "canonical",
+   "family": "life",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "B3/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "surprises": 0
+  },
+  {
+   "law": "life.canon",
+   "tier": "canonical",
+   "family": "life",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "B3/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "surprises": 0
+  },
+  {
+   "law": "life.canon",
+   "tier": "canonical",
+   "family": "life",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 128,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "life.canon",
+   "tier": "canonical",
+   "family": "life",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "surprises": 0
+  },
+  {
+   "law": "life.canon",
+   "tier": "canonical",
+   "family": "life",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "B3/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "surprises": 0
+  },
+  {
+   "law": "life.canon",
+   "tier": "canonical",
+   "family": "life",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "B3/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "surprises": 0
+  },
+  {
+   "law": "life.canon",
+   "tier": "canonical",
+   "family": "life",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "B3/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "surprises": 0
+  },
+  {
+   "law": "life.canon",
+   "tier": "canonical",
+   "family": "life",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "B3/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "surprises": 0
+  },
+  {
+   "law": "life.v0",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 0.93,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v0",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v0",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 64,
+   "exactPinned": false,
+   "heldOut": 0.965,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v0",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 4,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v0",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 8,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v0",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 2,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v0",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "mapKey": "B/S1",
+   "survivors": 32767,
+   "exactPinned": false,
+   "heldOut": 0,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v0",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S2",
+   "survivors": 2048,
+   "exactPinned": false,
+   "heldOut": 0.145,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v0",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v0",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 4,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v0",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v0",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v0",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 128,
+   "exactPinned": false,
+   "heldOut": 0.99,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v0",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v0",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v0",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v0",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v0",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v1",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "mapKey": "B356/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B356/S23",
+    "sets": "B356/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v1",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "mapKey": "B35/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 0.77,
+   "exactHit": false,
+   "truth": {
+    "mask": "B356/S23",
+    "sets": "B356/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v1",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "mapKey": "B356/S23",
+   "survivors": 64,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B356/S23",
+    "sets": "B356/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v1",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "mapKey": "B356/S23",
+   "survivors": 4,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B356/S23",
+    "sets": "B356/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v1",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "underdetermined",
+   "mapKey": "B356/S23",
+   "survivors": 8,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B356/S23",
+    "sets": "B356/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v1",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "underdetermined",
+   "mapKey": "B356/S23",
+   "survivors": 2,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B356/S23",
+    "sets": "B356/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v1",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "mapKey": "B/S1",
+   "survivors": 32767,
+   "exactPinned": false,
+   "heldOut": 0,
+   "exactHit": false,
+   "truth": {
+    "mask": "B356/S23",
+    "sets": "B356/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v1",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S2",
+   "survivors": 2048,
+   "exactPinned": false,
+   "heldOut": 0.115,
+   "exactHit": false,
+   "truth": {
+    "mask": "B356/S23",
+    "sets": "B356/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v1",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "mapKey": "B356/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B356/S23",
+    "sets": "B356/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v1",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "mapKey": "B356/S23",
+   "survivors": 4,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B356/S23",
+    "sets": "B356/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v1",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "B356/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B356/S23",
+    "sets": "B356/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v1",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "B356/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B356/S23",
+    "sets": "B356/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v1",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "mapKey": "B35/S23",
+   "survivors": 128,
+   "exactPinned": false,
+   "heldOut": 0.79,
+   "exactHit": false,
+   "truth": {
+    "mask": "B356/S23",
+    "sets": "B356/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v1",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "mapKey": "B35/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 0.775,
+   "exactHit": false,
+   "truth": {
+    "mask": "B356/S23",
+    "sets": "B356/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v1",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "B356/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B356/S23",
+    "sets": "B356/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v1",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "B356/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B356/S23",
+    "sets": "B356/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v1",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "B356/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B356/S23",
+    "sets": "B356/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v1",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "B356/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B356/S23",
+    "sets": "B356/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v2",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 0.93,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v2",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v2",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 64,
+   "exactPinned": false,
+   "heldOut": 0.965,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v2",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 4,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v2",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 8,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v2",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 2,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v2",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "mapKey": "B/S1",
+   "survivors": 32767,
+   "exactPinned": false,
+   "heldOut": 0,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v2",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S2",
+   "survivors": 2048,
+   "exactPinned": false,
+   "heldOut": 0.145,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v2",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v2",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 4,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v2",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v2",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v2",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 128,
+   "exactPinned": false,
+   "heldOut": 0.99,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v2",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v2",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v2",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v2",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v2",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v3",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "mapKey": "B2/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B2/S23",
+    "sets": "B2/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v3",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "mapKey": "B2/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B2/S23",
+    "sets": "B2/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v3",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "mapKey": "B2/S23",
+   "survivors": 64,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B2/S23",
+    "sets": "B2/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v3",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "mapKey": "B2/S23",
+   "survivors": 4,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B2/S23",
+    "sets": "B2/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v3",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "underdetermined",
+   "mapKey": "B2/S23",
+   "survivors": 8,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B2/S23",
+    "sets": "B2/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v3",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "underdetermined",
+   "mapKey": "B2/S23",
+   "survivors": 2,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B2/S23",
+    "sets": "B2/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v3",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "mapKey": "B/S1",
+   "survivors": 32767,
+   "exactPinned": false,
+   "heldOut": 0,
+   "exactHit": false,
+   "truth": {
+    "mask": "B2/S23",
+    "sets": "B2/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v3",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "mapKey": "B2/S2",
+   "survivors": 2048,
+   "exactPinned": false,
+   "heldOut": 0.145,
+   "exactHit": false,
+   "truth": {
+    "mask": "B2/S23",
+    "sets": "B2/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v3",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "mapKey": "B2/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B2/S23",
+    "sets": "B2/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v3",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "mapKey": "B2/S23",
+   "survivors": 4,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B2/S23",
+    "sets": "B2/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v3",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "B2/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B2/S23",
+    "sets": "B2/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v3",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "B2/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B2/S23",
+    "sets": "B2/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v3",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "mapKey": "B2/S23",
+   "survivors": 128,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B2/S23",
+    "sets": "B2/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v3",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "mapKey": "B2/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B2/S23",
+    "sets": "B2/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v3",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "B2/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B2/S23",
+    "sets": "B2/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v3",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "B2/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B2/S23",
+    "sets": "B2/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v3",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "B2/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B2/S23",
+    "sets": "B2/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v3",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "B2/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B2/S23",
+    "sets": "B2/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v4",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 0.93,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v4",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v4",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 64,
+   "exactPinned": false,
+   "heldOut": 0.965,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v4",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 4,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v4",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 8,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v4",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 2,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v4",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "mapKey": "B/S1",
+   "survivors": 32767,
+   "exactPinned": false,
+   "heldOut": 0,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v4",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S2",
+   "survivors": 2048,
+   "exactPinned": false,
+   "heldOut": 0.145,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v4",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v4",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 4,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v4",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v4",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v4",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "mapKey": "B3/S23",
+   "survivors": 128,
+   "exactPinned": false,
+   "heldOut": 0.99,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v4",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "mapKey": "B37/S23",
+   "survivors": 32,
+   "exactPinned": false,
+   "heldOut": 1,
+   "exactHit": false,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v4",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v4",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v4",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  },
+  {
+   "law": "life.v4",
+   "tier": "variant",
+   "family": "life-variant",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "mapKey": "B37/S23",
+   "survivors": 1,
+   "exactPinned": true,
+   "heldOut": 1,
+   "exactHit": true,
+   "truth": {
+    "mask": "B37/S23",
+    "sets": "B37/S23"
+   },
+   "surprises": 0
+  }
+ ],
+ "opacity": [
+  {
+   "law": "witness.canon",
+   "arm": "mechanical",
+   "probes": 32,
+   "heldOut": 0,
+   "opaque": true,
+   "coverage": 0,
+   "atChance": true
+  },
+  {
+   "law": "witness.canon",
+   "arm": "structured",
+   "probes": 32,
+   "heldOut": 0,
+   "opaque": true,
+   "coverage": 0,
+   "atChance": true
+  },
+  {
+   "law": "witness.canon",
+   "arm": "adaptive",
+   "probes": 32,
+   "heldOut": 0,
+   "opaque": true,
+   "coverage": 0,
+   "atChance": true
+  }
+ ],
+ "sheetMind": {
+  "kind": "sheet-mind",
+  "law": "life.v0",
+  "pinned": 16,
+  "key": "B37?/S23?",
+  "survivors": 4,
+  "confidence": 0.8888888888888888,
+  "surpriseBeforeLie": 0,
+  "surpriseAfterLie": 1,
+  "reflexFired": true
+ },
+ "receipts": [
+  {
+   "kind": "identify",
+   "law": "reversi.canon",
+   "trueFamily": "reversi",
+   "shape": "list",
+   "guessed": "reversi",
+   "hit": true,
+   "prev_hash": "0000000000000000",
+   "row_hash": "ad1253d7a5ef61f6"
+  },
+  {
+   "kind": "identify",
+   "law": "reversi.v0",
+   "trueFamily": "reversi-variant",
+   "shape": "list",
+   "guessed": "reversi",
+   "hit": true,
+   "prev_hash": "ad1253d7a5ef61f6",
+   "row_hash": "c77f1143ef178208"
+  },
+  {
+   "kind": "identify",
+   "law": "reversi.v1",
+   "trueFamily": "reversi-variant",
+   "shape": "list",
+   "guessed": "reversi",
+   "hit": true,
+   "prev_hash": "c77f1143ef178208",
+   "row_hash": "b3ae03c6c45cfd03"
+  },
+  {
+   "kind": "identify",
+   "law": "reversi.v2",
+   "trueFamily": "reversi-variant",
+   "shape": "list",
+   "guessed": "reversi",
+   "hit": true,
+   "prev_hash": "b3ae03c6c45cfd03",
+   "row_hash": "fe2277de54614cb4"
+  },
+  {
+   "kind": "identify",
+   "law": "reversi.v3",
+   "trueFamily": "reversi-variant",
+   "shape": "list",
+   "guessed": "reversi",
+   "hit": true,
+   "prev_hash": "fe2277de54614cb4",
+   "row_hash": "8c4480b9dc428237"
+  },
+  {
+   "kind": "identify",
+   "law": "reversi.v4",
+   "trueFamily": "reversi-variant",
+   "shape": "list",
+   "guessed": "reversi",
+   "hit": true,
+   "prev_hash": "8c4480b9dc428237",
+   "row_hash": "2c26ad4211fbd770"
+  },
+  {
+   "kind": "identify",
+   "law": "life.canon",
+   "trueFamily": "life",
+   "shape": "grid",
+   "guessed": "life",
+   "hit": true,
+   "prev_hash": "2c26ad4211fbd770",
+   "row_hash": "1c5a03024ebd1b5e"
+  },
+  {
+   "kind": "identify",
+   "law": "life.v0",
+   "trueFamily": "life-variant",
+   "shape": "grid",
+   "guessed": "life",
+   "hit": true,
+   "prev_hash": "1c5a03024ebd1b5e",
+   "row_hash": "dad45883f8185862"
+  },
+  {
+   "kind": "identify",
+   "law": "life.v1",
+   "trueFamily": "life-variant",
+   "shape": "grid",
+   "guessed": "life",
+   "hit": true,
+   "prev_hash": "dad45883f8185862",
+   "row_hash": "1ffaf029cfe76cb5"
+  },
+  {
+   "kind": "identify",
+   "law": "life.v2",
+   "trueFamily": "life-variant",
+   "shape": "grid",
+   "guessed": "life",
+   "hit": true,
+   "prev_hash": "1ffaf029cfe76cb5",
+   "row_hash": "21125f1fb032b3c9"
+  },
+  {
+   "kind": "identify",
+   "law": "life.v3",
+   "trueFamily": "life-variant",
+   "shape": "grid",
+   "guessed": "life",
+   "hit": true,
+   "prev_hash": "21125f1fb032b3c9",
+   "row_hash": "f24b4d27849bd5f6"
+  },
+  {
+   "kind": "identify",
+   "law": "life.v4",
+   "trueFamily": "life-variant",
+   "shape": "grid",
+   "guessed": "life",
+   "hit": true,
+   "prev_hash": "f24b4d27849bd5f6",
+   "row_hash": "10806b2caddd0c1a"
+  },
+  {
+   "kind": "identify",
+   "law": "hand.canon",
+   "trueFamily": "hand",
+   "shape": "poker",
+   "guessed": "hand",
+   "hit": true,
+   "prev_hash": "10806b2caddd0c1a",
+   "row_hash": "19a334266c5ca1c6"
+  },
+  {
+   "kind": "identify",
+   "law": "witness.canon",
+   "trueFamily": "witness",
+   "shape": "hex16",
+   "guessed": "witness",
+   "hit": true,
+   "prev_hash": "19a334266c5ca1c6",
+   "row_hash": "eccdfecc4826134a"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.canon",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.28,
+   "prev_hash": "eccdfecc4826134a",
+   "row_hash": "2aed15e0812a7783"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.canon",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.205,
+   "prev_hash": "2aed15e0812a7783",
+   "row_hash": "a8f9de2d7560a1e9"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.canon",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.55,
+   "prev_hash": "a8f9de2d7560a1e9",
+   "row_hash": "c375146c6792b181"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.canon",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.725,
+   "prev_hash": "c375146c6792b181",
+   "row_hash": "40c8e1b36483e69b"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.canon",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.615,
+   "prev_hash": "40c8e1b36483e69b",
+   "row_hash": "ed146a583b22ef59"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.canon",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.78,
+   "prev_hash": "ed146a583b22ef59",
+   "row_hash": "79bed737defa39a8"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.canon",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.28,
+   "prev_hash": "79bed737defa39a8",
+   "row_hash": "d2f7b44cdfc17f11"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.canon",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.535,
+   "prev_hash": "d2f7b44cdfc17f11",
+   "row_hash": "e6ee67584328e2ca"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.canon",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "e6ee67584328e2ca",
+   "row_hash": "8919e39a82f63815"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.canon",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "8919e39a82f63815",
+   "row_hash": "31cc152f3887c15f"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.canon",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "31cc152f3887c15f",
+   "row_hash": "c3dca5510b8d1cb5"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.canon",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "c3dca5510b8d1cb5",
+   "row_hash": "d1df79943387b145"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.canon",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.25,
+   "prev_hash": "d1df79943387b145",
+   "row_hash": "f4818bf41f2b77ed"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.canon",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.33,
+   "prev_hash": "f4818bf41f2b77ed",
+   "row_hash": "86d52b7f0b1ae548"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.canon",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.885,
+   "prev_hash": "86d52b7f0b1ae548",
+   "row_hash": "b14145c0b307365e"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.canon",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "b14145c0b307365e",
+   "row_hash": "fa7a7116ebab9369"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.canon",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "fa7a7116ebab9369",
+   "row_hash": "134ec169d9768e7a"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.canon",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "134ec169d9768e7a",
+   "row_hash": "aac4c3a724c10523"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v0",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.455,
+   "prev_hash": "aac4c3a724c10523",
+   "row_hash": "8717e4beae641c68"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v0",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.535,
+   "prev_hash": "8717e4beae641c68",
+   "row_hash": "0608fb9ae5c6ebe7"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v0",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.55,
+   "prev_hash": "0608fb9ae5c6ebe7",
+   "row_hash": "a1e96e3165b5e0e1"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v0",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.725,
+   "prev_hash": "a1e96e3165b5e0e1",
+   "row_hash": "b1119ffde81865c2"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v0",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.835,
+   "prev_hash": "b1119ffde81865c2",
+   "row_hash": "503da6bb4fc07171"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v0",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.78,
+   "prev_hash": "503da6bb4fc07171",
+   "row_hash": "833c6fc903339c7f"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v0",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.455,
+   "prev_hash": "833c6fc903339c7f",
+   "row_hash": "ee745d273a7c87c8"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v0",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.535,
+   "prev_hash": "ee745d273a7c87c8",
+   "row_hash": "0ca1f04c0b7ac537"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v0",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "0ca1f04c0b7ac537",
+   "row_hash": "befd02242e44c86d"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v0",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "befd02242e44c86d",
+   "row_hash": "dab8a17fa3ac8e05"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v0",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "dab8a17fa3ac8e05",
+   "row_hash": "6e729d2cf26d2bd1"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v0",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "6e729d2cf26d2bd1",
+   "row_hash": "16146f118bff73cf"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v0",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.395,
+   "prev_hash": "16146f118bff73cf",
+   "row_hash": "48907457726fd4e0"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v0",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.33,
+   "prev_hash": "48907457726fd4e0",
+   "row_hash": "843d47895e9eb232"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v0",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.885,
+   "prev_hash": "843d47895e9eb232",
+   "row_hash": "0f508f970b5aa3bb"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v0",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "0f508f970b5aa3bb",
+   "row_hash": "089132d088e3c714"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v0",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "089132d088e3c714",
+   "row_hash": "25b00570413bc208"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v0",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "25b00570413bc208",
+   "row_hash": "defe21531717bc5b"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v1",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.43,
+   "prev_hash": "defe21531717bc5b",
+   "row_hash": "f4762bfc5c45e304"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v1",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.36,
+   "prev_hash": "f4762bfc5c45e304",
+   "row_hash": "829461f9a1e8c222"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v1",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.775,
+   "prev_hash": "829461f9a1e8c222",
+   "row_hash": "1e6aa48fce803df6"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v1",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.83,
+   "prev_hash": "1e6aa48fce803df6",
+   "row_hash": "9e2e110963102afd"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v1",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.685,
+   "prev_hash": "9e2e110963102afd",
+   "row_hash": "655aef9617235b52"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v1",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.91,
+   "prev_hash": "655aef9617235b52",
+   "row_hash": "1c968fca55de9de9"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v1",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.43,
+   "prev_hash": "1c968fca55de9de9",
+   "row_hash": "5bdcb8217d2b4554"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v1",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.745,
+   "prev_hash": "5bdcb8217d2b4554",
+   "row_hash": "cfae11cb811f69ea"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v1",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "cfae11cb811f69ea",
+   "row_hash": "44cf2e3a637799ab"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v1",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "44cf2e3a637799ab",
+   "row_hash": "9d6d7234048734ef"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v1",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "9d6d7234048734ef",
+   "row_hash": "b337c19d2d47a0da"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v1",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "b337c19d2d47a0da",
+   "row_hash": "4da5881a28c06a88"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v1",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.405,
+   "prev_hash": "4da5881a28c06a88",
+   "row_hash": "d43dbff1d76191dc"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v1",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.38,
+   "prev_hash": "d43dbff1d76191dc",
+   "row_hash": "e461a4123446df97"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v1",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.885,
+   "prev_hash": "e461a4123446df97",
+   "row_hash": "a2454c510d95dd6f"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v1",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "a2454c510d95dd6f",
+   "row_hash": "aaa817e64b553561"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v1",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "aaa817e64b553561",
+   "row_hash": "f56763ee53084fb8"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v1",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "f56763ee53084fb8",
+   "row_hash": "f0ff36300f949be1"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v2",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.55,
+   "prev_hash": "f0ff36300f949be1",
+   "row_hash": "9683b3856de95807"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v2",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.295,
+   "prev_hash": "9683b3856de95807",
+   "row_hash": "f814a9bfa5ec98a1"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v2",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.675,
+   "prev_hash": "f814a9bfa5ec98a1",
+   "row_hash": "723b28d30b9bf879"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v2",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.725,
+   "prev_hash": "723b28d30b9bf879",
+   "row_hash": "6e9fbacd79623692"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v2",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.615,
+   "prev_hash": "6e9fbacd79623692",
+   "row_hash": "141da9985abc08bf"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v2",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.78,
+   "prev_hash": "141da9985abc08bf",
+   "row_hash": "16fc5610966db643"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v2",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.55,
+   "prev_hash": "16fc5610966db643",
+   "row_hash": "914ed93d2135f167"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v2",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.645,
+   "prev_hash": "914ed93d2135f167",
+   "row_hash": "19639a9cc431f8a2"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v2",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "19639a9cc431f8a2",
+   "row_hash": "94a1debd943a0fde"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v2",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "94a1debd943a0fde",
+   "row_hash": "633819303dfdcdfe"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v2",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "633819303dfdcdfe",
+   "row_hash": "6be5b1bd4126de57"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v2",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "6be5b1bd4126de57",
+   "row_hash": "e4a9cbaad7c94a37"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v2",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.46,
+   "prev_hash": "e4a9cbaad7c94a37",
+   "row_hash": "9fd3e27731cf7f60"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v2",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.55,
+   "prev_hash": "9fd3e27731cf7f60",
+   "row_hash": "a72811c3eb3fcd0f"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v2",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.885,
+   "prev_hash": "a72811c3eb3fcd0f",
+   "row_hash": "72436dce596cb700"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v2",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "72436dce596cb700",
+   "row_hash": "492da8b7702f2edf"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v2",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "492da8b7702f2edf",
+   "row_hash": "6c311ba7ff41b87d"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v2",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "6c311ba7ff41b87d",
+   "row_hash": "83d1ff5f202e99ff"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v3",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.515,
+   "prev_hash": "83d1ff5f202e99ff",
+   "row_hash": "490812f746f98a5f"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v3",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.295,
+   "prev_hash": "490812f746f98a5f",
+   "row_hash": "328b755da07267a2"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v3",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.675,
+   "prev_hash": "328b755da07267a2",
+   "row_hash": "9f0c265f756d35f2"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v3",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.725,
+   "prev_hash": "9f0c265f756d35f2",
+   "row_hash": "ba7a56b84c162138"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v3",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.615,
+   "prev_hash": "ba7a56b84c162138",
+   "row_hash": "cea2dc7b0eb26694"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v3",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.78,
+   "prev_hash": "cea2dc7b0eb26694",
+   "row_hash": "4b34f01937dca2d1"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v3",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.515,
+   "prev_hash": "4b34f01937dca2d1",
+   "row_hash": "b4d74f5ebe131409"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v3",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.645,
+   "prev_hash": "b4d74f5ebe131409",
+   "row_hash": "5676aa4af5550151"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v3",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "5676aa4af5550151",
+   "row_hash": "3774f7655d55fd4b"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v3",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "3774f7655d55fd4b",
+   "row_hash": "7c6b3cbc8daccfdd"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v3",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "7c6b3cbc8daccfdd",
+   "row_hash": "0ac8058e54f281ea"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v3",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "0ac8058e54f281ea",
+   "row_hash": "e838e68fc7e30f5b"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v3",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.53,
+   "prev_hash": "e838e68fc7e30f5b",
+   "row_hash": "fa2c76ca5be702d3"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v3",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.485,
+   "prev_hash": "fa2c76ca5be702d3",
+   "row_hash": "ee61cdd711547517"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v3",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.885,
+   "prev_hash": "ee61cdd711547517",
+   "row_hash": "d2abbf06e32b7e76"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v3",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "d2abbf06e32b7e76",
+   "row_hash": "d237c579bceb72b4"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v3",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "d237c579bceb72b4",
+   "row_hash": "8c3abd5aa8f23c0c"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v3",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "8c3abd5aa8f23c0c",
+   "row_hash": "d6273c4253979957"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v4",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.43,
+   "prev_hash": "d6273c4253979957",
+   "row_hash": "3ef30035e662d9b5"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v4",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.395,
+   "prev_hash": "3ef30035e662d9b5",
+   "row_hash": "61a97d6a6064236e"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v4",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.77,
+   "prev_hash": "61a97d6a6064236e",
+   "row_hash": "f9bb81672acdece2"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v4",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.725,
+   "prev_hash": "f9bb81672acdece2",
+   "row_hash": "f53104e9b586d21c"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v4",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.615,
+   "prev_hash": "f53104e9b586d21c",
+   "row_hash": "2f40770611c712d1"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v4",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.78,
+   "prev_hash": "2f40770611c712d1",
+   "row_hash": "3ca4f706ae2d53cb"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v4",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.43,
+   "prev_hash": "3ca4f706ae2d53cb",
+   "row_hash": "3d7dd9da99e521dd"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v4",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.77,
+   "prev_hash": "3d7dd9da99e521dd",
+   "row_hash": "a1d6d16871f64050"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v4",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "a1d6d16871f64050",
+   "row_hash": "52fcf16398713d89"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v4",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "52fcf16398713d89",
+   "row_hash": "d4ecb71867d03285"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v4",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "d4ecb71867d03285",
+   "row_hash": "79c701fa4f5568b0"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v4",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "79c701fa4f5568b0",
+   "row_hash": "41eb4321d21241c0"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v4",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.41,
+   "prev_hash": "41eb4321d21241c0",
+   "row_hash": "0ef2dfe23806eff8"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v4",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.4,
+   "prev_hash": "0ef2dfe23806eff8",
+   "row_hash": "0a038d25a0656df0"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v4",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": false,
+   "heldOut": 0.885,
+   "prev_hash": "0a038d25a0656df0",
+   "row_hash": "729b50ed1371d030"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v4",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "729b50ed1371d030",
+   "row_hash": "906e0453f7a382b8"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v4",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "906e0453f7a382b8",
+   "row_hash": "e936714176ceb637"
+  },
+  {
+   "kind": "discover",
+   "law": "reversi.v4",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "e936714176ceb637",
+   "row_hash": "61fdd17b0bf1d4bc"
+  },
+  {
+   "kind": "discover",
+   "law": "life.canon",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "61fdd17b0bf1d4bc",
+   "row_hash": "940a3ec4fe3af72f"
+  },
+  {
+   "kind": "discover",
+   "law": "life.canon",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "940a3ec4fe3af72f",
+   "row_hash": "9ea077b14b313ed3"
+  },
+  {
+   "kind": "discover",
+   "law": "life.canon",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "9ea077b14b313ed3",
+   "row_hash": "ffaf2f1d5227d5ef"
+  },
+  {
+   "kind": "discover",
+   "law": "life.canon",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "ffaf2f1d5227d5ef",
+   "row_hash": "1f1d070dee14614f"
+  },
+  {
+   "kind": "discover",
+   "law": "life.canon",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "1f1d070dee14614f",
+   "row_hash": "32d924b916f4f44d"
+  },
+  {
+   "kind": "discover",
+   "law": "life.canon",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "32d924b916f4f44d",
+   "row_hash": "9e23f4e7040362ad"
+  },
+  {
+   "kind": "discover",
+   "law": "life.canon",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0,
+   "prev_hash": "9e23f4e7040362ad",
+   "row_hash": "9169f070b7c8d270"
+  },
+  {
+   "kind": "discover",
+   "law": "life.canon",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0.145,
+   "prev_hash": "9169f070b7c8d270",
+   "row_hash": "12b9ff68aba550f8"
+  },
+  {
+   "kind": "discover",
+   "law": "life.canon",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "12b9ff68aba550f8",
+   "row_hash": "77a5d71134cacb5e"
+  },
+  {
+   "kind": "discover",
+   "law": "life.canon",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "77a5d71134cacb5e",
+   "row_hash": "6c652bd7a6abf236"
+  },
+  {
+   "kind": "discover",
+   "law": "life.canon",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "6c652bd7a6abf236",
+   "row_hash": "4192f542aadeedd6"
+  },
+  {
+   "kind": "discover",
+   "law": "life.canon",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "4192f542aadeedd6",
+   "row_hash": "400b955b84bfc042"
+  },
+  {
+   "kind": "discover",
+   "law": "life.canon",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "400b955b84bfc042",
+   "row_hash": "7f18d7814ea249bb"
+  },
+  {
+   "kind": "discover",
+   "law": "life.canon",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "7f18d7814ea249bb",
+   "row_hash": "1a00a10e0f059c6a"
+  },
+  {
+   "kind": "discover",
+   "law": "life.canon",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "1a00a10e0f059c6a",
+   "row_hash": "08d6cb3727858ca8"
+  },
+  {
+   "kind": "discover",
+   "law": "life.canon",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "08d6cb3727858ca8",
+   "row_hash": "e97722d7dd633ddf"
+  },
+  {
+   "kind": "discover",
+   "law": "life.canon",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "e97722d7dd633ddf",
+   "row_hash": "d64ca2836f8ae160"
+  },
+  {
+   "kind": "discover",
+   "law": "life.canon",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "d64ca2836f8ae160",
+   "row_hash": "5ef21dde2a76413e"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v0",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0.93,
+   "prev_hash": "5ef21dde2a76413e",
+   "row_hash": "29af4afdad16f183"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v0",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "29af4afdad16f183",
+   "row_hash": "77270b88ff92777c"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v0",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0.965,
+   "prev_hash": "77270b88ff92777c",
+   "row_hash": "75846aa88b7a33da"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v0",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "75846aa88b7a33da",
+   "row_hash": "5492f6136858687d"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v0",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "5492f6136858687d",
+   "row_hash": "2d6d257dabe084b3"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v0",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "2d6d257dabe084b3",
+   "row_hash": "29925cc85f2a4e53"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v0",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0,
+   "prev_hash": "29925cc85f2a4e53",
+   "row_hash": "09805b801f35674c"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v0",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0.145,
+   "prev_hash": "09805b801f35674c",
+   "row_hash": "703a3420e6c901fd"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v0",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "703a3420e6c901fd",
+   "row_hash": "a52a649676fa3981"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v0",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "a52a649676fa3981",
+   "row_hash": "e45d8da2274ecca3"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v0",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "e45d8da2274ecca3",
+   "row_hash": "59c9271bcc52f58a"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v0",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "59c9271bcc52f58a",
+   "row_hash": "7a67353d15cf2bd3"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v0",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0.99,
+   "prev_hash": "7a67353d15cf2bd3",
+   "row_hash": "e697eb403e0af29f"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v0",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "e697eb403e0af29f",
+   "row_hash": "26b3d5d5e3edb59c"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v0",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "26b3d5d5e3edb59c",
+   "row_hash": "6b4f63889e331e59"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v0",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "6b4f63889e331e59",
+   "row_hash": "f6e874e3ce5ceb98"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v0",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "f6e874e3ce5ceb98",
+   "row_hash": "7fd4ad876753f7ee"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v0",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "7fd4ad876753f7ee",
+   "row_hash": "a32162ea316c6de4"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v1",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "a32162ea316c6de4",
+   "row_hash": "309024c7fd10cd61"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v1",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0.77,
+   "prev_hash": "309024c7fd10cd61",
+   "row_hash": "1dd03ed82b52aaca"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v1",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "1dd03ed82b52aaca",
+   "row_hash": "b88686536b627da4"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v1",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "b88686536b627da4",
+   "row_hash": "e290fcfee32d89f3"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v1",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "e290fcfee32d89f3",
+   "row_hash": "a52f3554860118cc"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v1",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "a52f3554860118cc",
+   "row_hash": "ce93050e51eb38c4"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v1",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0,
+   "prev_hash": "ce93050e51eb38c4",
+   "row_hash": "e7f3a52941df3400"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v1",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0.115,
+   "prev_hash": "e7f3a52941df3400",
+   "row_hash": "aa4d8b291af3b97a"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v1",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "aa4d8b291af3b97a",
+   "row_hash": "e30fc3b4f1cf94e1"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v1",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "e30fc3b4f1cf94e1",
+   "row_hash": "f6664bf8e0b80fe2"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v1",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "f6664bf8e0b80fe2",
+   "row_hash": "946d5d55a3163760"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v1",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "946d5d55a3163760",
+   "row_hash": "337e5af29b1086b8"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v1",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0.79,
+   "prev_hash": "337e5af29b1086b8",
+   "row_hash": "2fc7104e0a9280ec"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v1",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0.775,
+   "prev_hash": "2fc7104e0a9280ec",
+   "row_hash": "9768f6bccca0131d"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v1",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "9768f6bccca0131d",
+   "row_hash": "8b580214321f354c"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v1",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "8b580214321f354c",
+   "row_hash": "fc3b40ea276bfe8f"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v1",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "fc3b40ea276bfe8f",
+   "row_hash": "28c30b9dc54389ff"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v1",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "28c30b9dc54389ff",
+   "row_hash": "4ab68d611da7500b"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v2",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0.93,
+   "prev_hash": "4ab68d611da7500b",
+   "row_hash": "518d8f2c8f09d316"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v2",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "518d8f2c8f09d316",
+   "row_hash": "79ee683e54189f87"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v2",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0.965,
+   "prev_hash": "79ee683e54189f87",
+   "row_hash": "c632b16eecf01b7e"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v2",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "c632b16eecf01b7e",
+   "row_hash": "3c80936a671bd239"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v2",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "3c80936a671bd239",
+   "row_hash": "18dfcb37092f7678"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v2",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "18dfcb37092f7678",
+   "row_hash": "3ad89fd499431253"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v2",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0,
+   "prev_hash": "3ad89fd499431253",
+   "row_hash": "5369a10b97383f15"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v2",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0.145,
+   "prev_hash": "5369a10b97383f15",
+   "row_hash": "3ab8662aa93d8063"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v2",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "3ab8662aa93d8063",
+   "row_hash": "c52f50e1673a97ca"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v2",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "c52f50e1673a97ca",
+   "row_hash": "b862693cb63f33d4"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v2",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "b862693cb63f33d4",
+   "row_hash": "b6e427b0ca369d93"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v2",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "b6e427b0ca369d93",
+   "row_hash": "d52d80271144f4f4"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v2",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0.99,
+   "prev_hash": "d52d80271144f4f4",
+   "row_hash": "6bb437aff57796a3"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v2",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "6bb437aff57796a3",
+   "row_hash": "edd32fc22df1e6bd"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v2",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "edd32fc22df1e6bd",
+   "row_hash": "78a205afb8075cb7"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v2",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "78a205afb8075cb7",
+   "row_hash": "f190370d68def073"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v2",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "f190370d68def073",
+   "row_hash": "10bdcc2fd17fdcc3"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v2",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "10bdcc2fd17fdcc3",
+   "row_hash": "0d14d6b5101b01a9"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v3",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "0d14d6b5101b01a9",
+   "row_hash": "c20f89282859f0e1"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v3",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "c20f89282859f0e1",
+   "row_hash": "2eddab882edde488"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v3",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "2eddab882edde488",
+   "row_hash": "46e998e2f1b380b8"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v3",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "46e998e2f1b380b8",
+   "row_hash": "773a83123ce458c7"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v3",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "773a83123ce458c7",
+   "row_hash": "b4144ef06fb87364"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v3",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "b4144ef06fb87364",
+   "row_hash": "4f85aaf3b02034af"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v3",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0,
+   "prev_hash": "4f85aaf3b02034af",
+   "row_hash": "3f18220ef47bfde7"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v3",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0.145,
+   "prev_hash": "3f18220ef47bfde7",
+   "row_hash": "3b11003df6ab0d95"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v3",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "3b11003df6ab0d95",
+   "row_hash": "800bc528648e7113"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v3",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "800bc528648e7113",
+   "row_hash": "de2f6885c870c758"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v3",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "de2f6885c870c758",
+   "row_hash": "ad54e988cd8aea9d"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v3",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "ad54e988cd8aea9d",
+   "row_hash": "2b86a04e3e9afce0"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v3",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "2b86a04e3e9afce0",
+   "row_hash": "8176f49a46198461"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v3",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "8176f49a46198461",
+   "row_hash": "b3ab270f81317ef4"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v3",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "b3ab270f81317ef4",
+   "row_hash": "a6ede1fe386e1919"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v3",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "a6ede1fe386e1919",
+   "row_hash": "6b1e3a9051eabd9d"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v3",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "6b1e3a9051eabd9d",
+   "row_hash": "987ab92594174d3d"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v3",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "987ab92594174d3d",
+   "row_hash": "2ac073b0a35eda8b"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v4",
+   "arm": "mechanical",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0.93,
+   "prev_hash": "2ac073b0a35eda8b",
+   "row_hash": "bb1345077bc66c65"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v4",
+   "arm": "mechanical",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "bb1345077bc66c65",
+   "row_hash": "75394e49ddd2bde9"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v4",
+   "arm": "mechanical",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0.965,
+   "prev_hash": "75394e49ddd2bde9",
+   "row_hash": "5d12b98dad975cbc"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v4",
+   "arm": "mechanical",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "5d12b98dad975cbc",
+   "row_hash": "22042ea907fa2d77"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v4",
+   "arm": "mechanical",
+   "budget": 24,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "22042ea907fa2d77",
+   "row_hash": "bf823ec91afb0790"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v4",
+   "arm": "mechanical",
+   "budget": 32,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "bf823ec91afb0790",
+   "row_hash": "5ce9f0828b6e2b68"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v4",
+   "arm": "structured",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0,
+   "prev_hash": "5ce9f0828b6e2b68",
+   "row_hash": "9e532cef56ef9883"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v4",
+   "arm": "structured",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0.145,
+   "prev_hash": "9e532cef56ef9883",
+   "row_hash": "afb563d380b5cdea"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v4",
+   "arm": "structured",
+   "budget": 8,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "afb563d380b5cdea",
+   "row_hash": "aa03d4f4b069e6a1"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v4",
+   "arm": "structured",
+   "budget": 16,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "aa03d4f4b069e6a1",
+   "row_hash": "4a5c0da8548ff8a1"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v4",
+   "arm": "structured",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "4a5c0da8548ff8a1",
+   "row_hash": "22e9eb51c5252cc6"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v4",
+   "arm": "structured",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "22e9eb51c5252cc6",
+   "row_hash": "0ed88ccc99c1f342"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v4",
+   "arm": "adaptive",
+   "budget": 2,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 0.99,
+   "prev_hash": "0ed88ccc99c1f342",
+   "row_hash": "7f458739be06c24e"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v4",
+   "arm": "adaptive",
+   "budget": 4,
+   "mapKind": "underdetermined",
+   "exact": false,
+   "heldOut": 1,
+   "prev_hash": "7f458739be06c24e",
+   "row_hash": "2b24c5da92edd4ce"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v4",
+   "arm": "adaptive",
+   "budget": 8,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "2b24c5da92edd4ce",
+   "row_hash": "598564ab7bdd8f99"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v4",
+   "arm": "adaptive",
+   "budget": 16,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "598564ab7bdd8f99",
+   "row_hash": "3b61a2c4bc983924"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v4",
+   "arm": "adaptive",
+   "budget": 24,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "3b61a2c4bc983924",
+   "row_hash": "b71deb559fa86dfe"
+  },
+  {
+   "kind": "discover",
+   "law": "life.v4",
+   "arm": "adaptive",
+   "budget": 32,
+   "mapKind": "map",
+   "exact": true,
+   "heldOut": 1,
+   "prev_hash": "b71deb559fa86dfe",
+   "row_hash": "4ef995954dc85225"
+  },
+  {
+   "kind": "opacity",
+   "law": "witness.canon",
+   "arm": "mechanical",
+   "heldOut": 0,
+   "opaque": true,
+   "prev_hash": "4ef995954dc85225",
+   "row_hash": "ce1e29343f5e4694"
+  },
+  {
+   "kind": "opacity",
+   "law": "witness.canon",
+   "arm": "structured",
+   "heldOut": 0,
+   "opaque": true,
+   "prev_hash": "ce1e29343f5e4694",
+   "row_hash": "2be07c2e09de0717"
+  },
+  {
+   "kind": "opacity",
+   "law": "witness.canon",
+   "arm": "adaptive",
+   "heldOut": 0,
+   "opaque": true,
+   "prev_hash": "2be07c2e09de0717",
+   "row_hash": "dc124b6daec36481"
+  },
+  {
+   "kind": "sheet-mind",
+   "law": "life.v0",
+   "pinned": 16,
+   "key": "B37?/S23?",
+   "survivors": 4,
+   "confidence": 0.8888888888888888,
+   "surpriseBeforeLie": 0,
+   "surpriseAfterLie": 1,
+   "reflexFired": true,
+   "prev_hash": "dc124b6daec36481",
+   "row_hash": "db399907c548c7d2"
+  }
+ ]
+}

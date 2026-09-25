@@ -184,6 +184,7 @@ stamped revision).
 | `arena/play.mjs` | the 23-check harness |
 | `arena/outputs/` | `summary.json`, `round_ledger.jsonl`, `moth_journal.json`, `moth_cache.json`, `e12_results.png` |
 | `experiments/chart_e12.py` | regenerates the chart from receipts |
+| `experiments/inverse-oracle/` | **the inverse oracle** — minds infer hidden bred laws (loom elites + off-spec variants) under probe rations; the probe economies compete, the sheet's reflex scars on channel lies, opacity is a verdict. See its `README.md` + `FINDINGS.md` (234 receipted rows, 11/11 smoke) |
 
 ## 8. Lineage and honest limits
 
