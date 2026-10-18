@@ -11,7 +11,16 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 24 }
       - run: npm install --no-save yaml z-ai-web-dev-sdk@0.0.18 || true
-      - name: 23-check arena harness (offline)
+      # Step names carry NO check count on purpose. The counts are derived at
+      # runtime and printed by each script (`arena-smoke: N/N`, and
+      # `perception-arena: N/N` from play.mjs) — a number baked into a step
+      # name can only rot, and this one already had: "23-check arena harness"
+      # was running smoke.mjs, which asserted nothing at all.
+      - name: arena smoke harness (offline)
         run: node arena/smoke.mjs
-      - name: full offline championship
+      # MOTH_OFFLINE=1 pins the offline path explicitly, so the step stays
+      # honest (and never spends real quantum jobs) even if a key ever reaches
+      # the runner environment.
+      - name: full offline championship harness
         run: node arena/play.mjs
+        env: { MOTH_OFFLINE: '1' }

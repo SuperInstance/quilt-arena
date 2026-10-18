@@ -7,17 +7,26 @@ other's formulas from observed moves. True quantum entropy from moth-quantum
 is not a free utility: it is a **budget** each mind rations across a set of
 games, and *when* to buy perception is part of the strategy.
 
-Status: **23/23 harness checks green**, live run on the user's moth-quantum
-key (8 real jobs: 1 coin-toss probe, 6 championship entropy packets, 2 graph
-tomography reads) and 4 real GLM script-writer calls, all cached and
-receipted. Offline replay: byte-identical.
+Status: **23/23 harness checks green on a live run** — the user's
+moth-quantum key (8 real jobs: 1 coin-toss probe, 6 championship entropy
+packets, 2 graph tomography reads) and 4 real GLM script-writer calls, all
+cached and receipted. Offline replay: byte-identical.
+
+**The check count is mode-dependent, and every number below is printed by the
+command beside it** rather than asserted here. A live run executes 3 extra
+quantum-gated checks (live probe, entanglement arc, live championship), so an
+offline run legitimately reports fewer:
 
 ```
-node arena/play.mjs                 # full offline run (synthetic entropy, flagged)
-MOTH_OFFLINE=0 node arena/play.mjs  # live championship on real quantum entropy
+node arena/smoke.mjs                # -> arena-smoke: 11/11 checks green  (~1s)
+node arena/play.mjs                 # -> perception-arena: 20/20  (offline, synthetic entropy, flagged)
+MOTH_OFFLINE=0 node arena/play.mjs  # -> perception-arena: 23/23  (live championship; needs a moth-quantum key)
 REAL_LLM=1 node arena/play.mjs      # ...and real GLM script-writer letters
-node arena/smoke.mjs                # 30-second smoke of the core loop
 ```
+
+Nothing hardcodes these counts: `shared/kit.mjs` derives them at runtime and
+the harness prints them, so adding a check moves the number instead of
+silently falsifying it.
 
 ---
 
@@ -147,12 +156,13 @@ insight → adjustment):
 
 ## 6. Results (this run — all receipted in `arena/outputs/`)
 
-- **Harness:** 23/23 checks green (referees re-derived and tamper-caught,
-  planted-formula recovery above 2× chance for all four families with
-  cosine ≥ 0.99, spectral kernel finds the planted period, budgets never
-  overspent, receipts chains verify, deterministic replay, analyst fence
-  holds under adversarial digests, MASK self-model alive with 324
-  observations).
+- **Harness:** 23/23 checks green on that live run — 20/20 offline, since the
+  3 quantum-gated checks are skipped without a key. Referees re-derived and
+  tamper-caught, planted-formula recovery above 2× chance for all four
+  families with cosine ≥ 0.99, spectral kernel finds the planted period,
+  budgets never overspent, receipts chains verify, deterministic replay,
+  analyst fence holds under adversarial digests, MASK self-model alive with
+  324 observations.
 - **Live quantum:** probe 40H/24T (64 shots, mock=false); 6 championship
   packets spent by real policy triggers; tomography ZZ on the
   (accuracy × alarm) edge **0.018 → 0.466** across the convergence arc —
@@ -181,7 +191,8 @@ stamped revision).
 | `arena/minds.mjs` | the four minds (style architecture + family program cells) |
 | `arena/tournament.mjs` | the world: game loops, two-step purchase, sets, script-writer, analyst |
 | `arena/moth.mjs` | the vault: cache, namespaces, live cap, journal |
-| `arena/play.mjs` | the 23-check harness |
+| `arena/play.mjs` | the main harness — 20 checks offline, 23 with a live key |
+| `arena/smoke.mjs` | the fast smoke harness — 11 asserts; this is what CI runs |
 | `arena/outputs/` | `summary.json`, `round_ledger.jsonl`, `moth_journal.json`, `moth_cache.json`, `e12_results.png` |
 | `experiments/chart_e12.py` | regenerates the chart from receipts |
 | `experiments/inverse-oracle/` | **the inverse oracle** — minds infer hidden bred laws (loom elites + off-spec variants) under probe rations; the probe economies compete, the sheet's reflex scars on channel lies, opacity is a verdict. See its `README.md` + `FINDINGS.md` (234 receipted rows, 11/11 smoke) |
